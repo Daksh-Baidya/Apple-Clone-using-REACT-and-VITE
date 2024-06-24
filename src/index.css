@@ -1,0 +1,163 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #FFF;
+}
+
+@media only screen and (max-width: 1050px) {
+  .navbar, nav{
+    z-index: 1000;
+    width: 1050px;
+  }
+
+  .container-15pro{
+    width: 1050px;
+    /* width: 100vw; */
+    height: 570px;
+    background-position: top center;
+  }
+
+  .container-15{
+    width: 1050px;
+    /* width: 100vw; */
+    height: 570px;
+    background-position: top center;
+  }
+
+  .container-ipad-mac{
+    width: 1050px;
+    height: 520px;
+  }
+
+  .container-watch-vision{
+    width: 1050px;
+    height: 520px;
+  }
+
+  .container-card-trade{
+    width: 1050px;
+    height: 520px;
+  }
+
+  .movie-slider{
+    width: 1050px;
+    /* height: 405.78px; */
+    height: 100%;
+  }
+}
+
+@media only screen and (max-width: 735px) {
+
+  .container-ipad-mac{
+    flex-direction: column;
+    height: 1200px;
+    width: 1050px;
+  }
+
+  .container-ipad-parent{
+    width: 100%;
+    height: 100vh;
+  }
+
+  .container-ipad{
+    height: 100%;
+    width: 100%;
+    background-position: top center;
+  }
+
+  .container-mac-parent{
+    width: 100%;
+    height: 100vh;
+  }
+  
+  .container-mac{
+    height: 100%;
+    width: 100%;
+  }
+
+  .container-watch-vision{
+    flex-direction: column;
+    height: 1200px;
+    width: 1050px;
+  }
+
+  .container-watch-parent{
+    width: 100%;
+    height: 100vh;
+  }
+
+  .container-watch{
+    height: 100%;
+    width: 100%;
+    background-position: top center;
+  }
+
+  .container-vision-parent{
+    width: 100%;
+    height: 100vh;
+  }
+  
+  .container-vision{
+    height: 100%;
+    width: 100%;
+  }
+
+  .container-card-trade{
+    flex-direction: column;
+    height: 1200px;
+    width: 1050px;
+  }
+
+  .container-card-parent{
+    width: 100%;
+    height: 100vh;
+  }
+
+  .container-card{
+    height: 100%;
+    width: 100%;
+    background-position: top center;
+  }
+
+  .container-trade-parent{
+    width: 100%;
+    height: 100vh;
+  }
+  
+  .container-trade{
+    height: 100%;
+    width: 100%;
+  }
+
+  .container-card-trade .container-card{
+    color: black;
+  }
+
+  .container-card .button-card button:last-child{
+    background-color: #d2cee9;
+  }
+
+  .container-card .container-card-first-line{
+    margin-top: 80px;
+  }
+}
+
+@media only screen and (max-width: 833px) {
+  .hideonMobile{
+    display: none;
+  }
+
+  ul{
+    justify-content: space-evenly;
+  }
+}
+
+@media only screen and (min-width: 833px) {
+  #showSide{
+    display: none;
+  }
+}
